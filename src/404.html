@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>404 - No One Is A Dev</title>
+
+<!-- Links -->
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+<style>
+  body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(135deg, #1a1a0f, #2d2a15);
+    color: #f5f5dc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .error-code {
+    font-size: 8rem;
+    font-weight: bold;
+    color: #ff9800;
+    margin: 0;
+    text-shadow: 0 0 15px #ff9800, 0 0 30px #ff9800;
+  }
+
+  .message {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    max-width: 700px;
+    line-height: 1.4;
+  }
+
+  .content-box {
+    background: rgba(255, 215, 0, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    max-width: 800px;
+    margin: 20px 0;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+  }
+
+  .content-box h2 {
+    margin-top: 0;
+    color: #ffd700;
+    font-size: 2rem;
+  }
+
+  .explanation {
+    margin: 15px 0;
+    font-size: 1.2rem;
+  }
+
+  pre {
+    background: #1a1a0f;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: #ffd700;
+    margin-top: 15px;
+    border-left: 4px solid #ff9800;
+  }
+
+  a.home-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background: linear-gradient(45deg, #ffd700, #ff9800);
+    color: #1a1a0f;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+  }
+
+  a.home-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(255, 215, 0, 0.4);
+  }
+</style>
+</head>
+<body>
+  <h1 class="error-code">404</h1>
+  <div class="message">Oops! Looks like there's no developer behind this page.</div>
+
+  <div class="content-box">
+    <h2>What does this mean?</h2>
+    <p class="explanation">
+      This page was created without any developer involvement. It's just a placeholder in the vast digital void.
+    </p>
+    <p class="explanation">
+      If you're looking for something specific, maybe try asking the <s>developer</s> or check back later.
+    </p>
+    <pre>
+        $ whoami
+        no-one
+    </pre>
+    <a href="/" class="home-btn">Return to the Home Page</a>
+  </div>
+</body>
+</html>
